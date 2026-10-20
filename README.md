@@ -1,137 +1,147 @@
 # Suyog Dabhole
 
-## Principal Cloud & Platform Architect
+## AI / GenAI Solutions Architect | AWS • Amazon Bedrock • RAG • Agentic AI
 
-**AWS · Kubernetes · Terraform · Platform Engineering · DevSecOps · SRE · Observability · FinOps**
+**Building production-grade GenAI applications and the secure, scalable cloud platforms behind them.**
 
-I design and build secure, scalable, self-service cloud platforms that help engineering teams ship faster without compromising reliability, security, governance, or cost control.
+[Portfolio](https://suyogbuilds.com) · [LinkedIn](https://www.linkedin.com/in/suyogdabhole/) · [Email](mailto:suyog.dabhole@outlook.com) · [GitHub](https://github.com/suyog-builder)
 
-My focus is enterprise platform engineering: converting cloud architecture, Kubernetes, infrastructure automation, GitOps, observability, SRE, security, and FinOps into reusable platform capabilities and developer golden paths.
+I architect and deliver **enterprise AI/GenAI solutions**, combining **Amazon Bedrock, Retrieval-Augmented Generation (RAG), agentic AI, production LLMOps, AWS, Kubernetes, and software engineering**. My work spans solution discovery, architecture design, implementation, secure enterprise integration, production readiness, and reliability engineering.
 
----
-
-## What I Build
-
-- **Enterprise AWS platforms** — multi-account architecture, landing zones, networking, identity, security guardrails, shared services, governance, and workload isolation.
-- **Kubernetes / EKS platforms** — secure multi-team clusters, GitOps, autoscaling, platform add-ons, workload identity, observability, upgrades, and reliability engineering.
-- **Self-service infrastructure platforms** — developer portals, golden paths, reusable Terraform modules, event-driven provisioning, policy-as-code, approvals, auditability, and lifecycle automation.
-- **DevSecOps delivery platforms** — CI/CD standards, short-lived credentials, supply-chain controls, security scanning, policy gates, artifact promotion, and controlled production releases.
-- **SRE & observability platforms** — OpenTelemetry, Prometheus, Grafana, metrics, logs, traces, Service Level Indicators (SLIs), Service Level Objectives (SLOs), error budgets, incident response, and automated remediation.
-- **Cloud FinOps governance** — allocation, tagging, budgets, anomaly detection, rightsizing, commitment planning, Kubernetes cost visibility, automation, and unit-cost optimization.
-
----
-
-## Architecture Approach
-
-```text
-Developer Experience
-        ↓
-Self-Service Golden Paths
-        ↓
-Policy + Security + Cost Guardrails
-        ↓
-Terraform / GitOps Automation
-        ↓
-AWS + EKS Platform Capabilities
-        ↓
-Observability + SRE + FinOps Feedback
-```
-
-I prefer platforms that are:
-
-- **Secure by default** rather than secured manually later.
-- **Self-service with guardrails** rather than ticket-driven infrastructure.
-- **API- and Git-driven** rather than dependent on console operations.
-- **Observable by default** with measurable SLIs, SLOs, and error budgets.
-- **Designed around ownership and blast radius** through clear account, environment, state, and platform boundaries.
-- **Cost-aware by architecture** rather than relying only on post-deployment optimization.
-
----
-
-## Flagship Platform Engineering Projects
-
-### [Enterprise AWS Platform Blueprint](https://github.com/suyog-builder/enterprise-aws-platform-blueprint)
-Enterprise AWS reference architecture covering multi-account governance, security, networking, EKS, Terraform, CI/CD, SRE, observability, and FinOps. Includes Terraform account-baseline implementation, encrypted audit logging, CloudTrail, KMS, policy-as-code, and CI validation.
-
-### [Enterprise EKS Platform](https://github.com/suyog-builder/enterprise-eks-platform)
-Production-oriented EKS platform covering Terraform, managed node groups, workload identity, Argo CD, GitOps, network isolation, resource governance, Prometheus SLO rules, autoscaling, and multi-team platform patterns.
-
-### [Self-Service Cloud Platform](https://github.com/suyog-builder/self-service-cloud-platform)
-Internal developer platform architecture using golden paths, Backstage, event-driven workflows, SQS/DLQ, DynamoDB workflow state, EventBridge, Terraform execution boundaries, OPA policy, and CI validation.
-
-### [Terraform Enterprise Modules](https://github.com/suyog-builder/terraform-enterprise-modules)
-Reusable enterprise Terraform patterns with secure defaults, KMS encryption, S3 controls, mandatory tags, lifecycle policies, native Terraform tests, consumer examples, and automated quality gates.
-
-### [Cloud-Native Observability Platform](https://github.com/suyog-builder/cloud-native-observability-platform)
-OpenTelemetry, Prometheus, Grafana, AWS Managed Prometheus, SLI/SLO definitions, error-budget alerts, telemetry pipelines, GitOps configuration, dashboards, and observability-as-code patterns.
-
-### [AWS FinOps Governance](https://github.com/suyog-builder/aws-finops-governance)
-AWS FinOps engineering patterns including budgets, anomaly detection, Cost and Usage Report analysis, Athena queries, tagging controls, waste detection automation, and accountable cloud-cost optimization.
-
----
-
-## Core Technology Stack
-
-| Area | Technologies / Practices |
-|---|---|
-| **Cloud** | AWS, multi-account architecture, Control Tower, Organizations, IAM, KMS, VPC, Transit Gateway, PrivateLink, Route 53 |
-| **Containers** | EKS, Kubernetes, Helm, Argo CD, Karpenter, workload identity, network policies |
-| **Infrastructure as Code** | Terraform, reusable modules, remote state, state isolation, policy-as-code, automated testing |
-| **Platform Engineering** | Internal Developer Platforms, Backstage, golden paths, self-service, platform-as-a-product |
-| **DevSecOps** | GitHub Actions, GitLab CI/CD, OpenID Connect, Trivy, OPA/Conftest, supply-chain controls |
-| **SRE** | SLIs, SLOs, error budgets, incident management, reliability engineering, automated remediation |
-| **Observability** | OpenTelemetry, Prometheus, Grafana, CloudWatch, AppDynamics, metrics, logs, traces, alert engineering |
-| **FinOps** | Cost allocation, budgets, anomaly detection, rightsizing, Savings Plans, unit economics |
-
----
-
-## Principal-Level Engineering Focus
-
-I work beyond individual infrastructure components. The questions I focus on include:
-
-- Where should platform, account, state, environment, and ownership boundaries exist?
-- How should engineering teams consume infrastructure safely without central-team bottlenecks?
-- Which controls should be preventive, detective, automated, or exception-based?
-- How should Terraform, Kubernetes, GitOps, security, observability, SRE, and FinOps operate as one platform rather than separate tools?
-- What are the architectural trade-offs, failure modes, recovery paths, blast radius, and operating costs?
-- How should a platform be measured through adoption, provisioning lead time, availability, security posture, developer experience, and unit cost?
+I bring deep cloud and platform engineering experience to GenAI: turning promising prototypes into **secure, observable, cost-aware services** that can operate across multiple environments and teams.
 
 ---
 
 ## Selected Engineering Impact
 
-- Supported cloud-native platforms serving **25+ engineering teams** and large microservice estates.
-- Designed reliability patterns for workloads targeting **99.99% availability**.
-- Operated observability platforms processing approximately **0.8–1.2 TB of telemetry per day**.
-- Delivered cloud optimization initiatives producing **$1M+ in annual savings**.
-- Automated approximately **70% of selected P1 remediation paths** and contributed to roughly **40% lower Mean Time To Repair (MTTR)**.
+| Outcome | Result |
+| --- | --- |
+| **Enterprise GenAI delivery** | Architected and delivered **3 production-grade GenAI services** using Amazon Bedrock, RAG, agentic workflows, and enterprise integrations |
+| **Knowledge retrieval** | Achieved **60% faster knowledge retrieval** |
+| **GenAI reliability** | Delivered **99.9% service availability** |
+| **AWS platform scale** | Supported **120+ microservices** and **1–3 million requests/day** |
+| **Observability at scale** | Supported **500 GB–1 TB of telemetry/day** |
+| **Cloud cost optimization** | Delivered **$1M+ in annualized cloud savings** |
+| **Operational efficiency** | Reduced **Mean Time to Repair (MTTR) by 40%** and automated **70% of recurring incident remediation** |
 
-> Public repositories contain generalized reference implementations and sanitized architecture patterns. They do not contain proprietary employer or customer code, credentials, production identifiers, or confidential designs.
+*The results above summarize enterprise work described in my resume. They are not performance claims for the public reference repositories below.*
 
 ---
+
+## What I Architect & Build
+
+### 1. Enterprise RAG Applications
+
+- End-to-end knowledge pipelines: **enterprise data integration, ingestion, chunking, embeddings, vector retrieval, and grounded LLM responses**.
+- Retrieval architectures designed around relevance, secure access, latency, and reliable answers.
+- Amazon Bedrock integrations with enterprise APIs, Python backend services, and REST interfaces.
+- Production monitoring for retrieval quality, application latency, and operational reliability.
+
+### 2. Agentic AI & Enterprise Automation
+
+- **AI agents and agentic workflows** with tool/function calling and controlled execution.
+- Secure integration with enterprise APIs and business systems.
+- Orchestration patterns that separate model decisions from authorized tool access.
+- Guardrails, policy enforcement, auditability, and human oversight where required.
+
+### 3. Production GenAI Platforms & LLMOps
+
+- AWS-hosted GenAI services built with **Amazon Bedrock, Amazon EKS, and Kubernetes**.
+- Controlled releases and environment promotion using **Terraform, Helm, Argo CD, and GitOps**.
+- Production AI evaluation, tracing, token and latency monitoring, and service observability.
+- Multi-tenant architecture, security boundaries, IAM, secrets management, and policy-as-code.
+
+### 4. AWS Cloud & Platform Engineering
+
+- Cloud-native platform foundations, workload isolation, infrastructure automation, and reusable architecture patterns.
+- Developer platforms, CI/CD, DevSecOps controls, and secure delivery workflows.
+- **SRE, observability, cost governance, and incident automation** for large-scale applications.
+- Architecture trade-offs involving resilience, scalability, performance, security, and lifecycle cost.
+
+---
+
+## Representative GenAI Architecture
+
+The diagram below shows a **generalized design pattern**, not proprietary employer architecture.
+
+```text
+Enterprise Documents / Data
+          |
+     Ingest + Chunk
+          |
+       Embeddings
+          |
+       Vector Index
+          |
+          +-----------------------+
+                                  |
+User -> API -> Secure Orchestration -> Retrieve + Ground Context
+                                  |              |
+                                  |              v
+                                  +--------> Amazon Bedrock LLM
+                                  |              |
+                                  |         Grounded Response
+                                  |
+                                  +--> Governed Agent Tools / Enterprise APIs
+
+Cross-cutting: IAM • Guardrails • Evaluation • Tracing • SLOs
+```
+
+**Architecture principle:** A good enterprise AI system needs more than a model. Retrieval quality, authorized tool execution, secure integrations, operational telemetry, evaluation, and reliable delivery all matter.
+
+---
+
+## Technology Stack
+
+| Domain | Technologies and capabilities |
+| --- | --- |
+| **GenAI & LLMs** | Amazon Bedrock, Anthropic Claude, LLM applications, RAG, embeddings, vector search, grounding |
+| **Agentic AI** | AI agents, tool/function calling, orchestration, workflow automation, enterprise API integration |
+| **LLMOps** | Evaluation patterns, AI observability, tracing, latency and token monitoring, production operations |
+| **Cloud & Containers** | AWS, Amazon EKS, Kubernetes, multi-tenant SaaS, cloud-native and distributed systems |
+| **Infrastructure & Delivery** | Terraform, Argo CD, Helm, GitOps, CI/CD, infrastructure automation |
+| **Security & Governance** | IAM, Zero Trust, Vault, OPA/Gatekeeper, encryption, guardrails, policy-as-code |
+| **SRE & Observability** | OpenTelemetry, Prometheus, Grafana, Datadog, SLIs/SLOs, incident response |
+| **Software Engineering** | Python, FastAPI, Java, REST APIs, backend services, integrations, code reviews |
+
+---
+
+## Public Architecture Repositories
+
+These are **generalized reference blueprints and engineering roadmaps** that demonstrate my AWS and platform architecture approach. Their current documentation should not be confused with proprietary production implementations.
+
+| Repository | Focus |
+| --- | --- |
+| [Enterprise AWS Platform Blueprint](https://github.com/suyog-builder/enterprise-aws-platform-blueprint) | Multi-account AWS architecture, governance, security, networking, EKS, Terraform, DevSecOps, and FinOps |
+| [Enterprise EKS Platform](https://github.com/suyog-builder/enterprise-eks-platform) | Multi-environment Kubernetes architecture, GitOps, workload isolation, autoscaling, and reliability |
+| [Self-Service Cloud Platform](https://github.com/suyog-builder/self-service-cloud-platform) | Developer golden paths, provisioning workflows, policy checks, approvals, and auditability |
+| [Terraform Enterprise Modules](https://github.com/suyog-builder/terraform-enterprise-modules) | Reusable, secure-by-default AWS Terraform module architecture and quality standards |
+| [Cloud-Native Observability Platform](https://github.com/suyog-builder/cloud-native-observability-platform) | OpenTelemetry pipelines, Prometheus/Grafana, SLOs, alerting, and telemetry governance |
+| [AWS FinOps Governance](https://github.com/suyog-builder/aws-finops-governance) | Cost allocation, budgets, anomaly detection, rightsizing, and engineering cost ownership |
+
+*I keep employer/customer source code, credentials, infrastructure identifiers, and confidential designs out of public repositories.*
+
+---
+
+## Experience Snapshot
+
+- **AI / GenAI Solution Architect — Jeppesen ForeFlight** (Oct 2025 – Mar 2026): Enterprise GenAI and RAG delivery on AWS, agentic workflows, secure API integrations, Kubernetes, GitOps, observability, and engineering mentorship.
+- **AI / GenAI Solution Architect — Boeing India** (Jun 2023 – Oct 2025): Enterprise GenAI architecture, reusable RAG patterns, cloud-native platforms, AWS/EKS foundations, DevSecOps, and observability.
+- **Cloud Solutions Architect — Tata Consultancy Services** (Nov 2011 – Jun 2023): AWS transformations, enterprise modernization, solution design, infrastructure automation, CI/CD, and backend integration.
+- **Earlier software engineering — Tech Mahindra and Cybage**: Java backend applications, enterprise systems, APIs, and performance engineering.
+- **AvenSTEAM Innovation Labs**: Co-founded an education-technology venture in 2026, contributing technology planning, initial digital infrastructure, and solution research.
 
 ## Certifications
 
-- **AWS Certified Solutions Architect**
+- **AWS Certified Solutions Architect – Associate**
 - **Certified Kubernetes Administrator (CKA)**
-- **Microsoft Certified: Azure Solutions Architect Expert**
-
----
-
-## Current Focus
-
-**Principal Platform Engineering · Cloud Architecture · AWS · Kubernetes · Infrastructure Automation · SRE · DevSecOps · AI Infrastructure · Forward-Deployed Engineering**
-
-I am particularly interested in platforms where infrastructure automation, developer experience, reliability, security, observability, and AI-assisted operations converge.
 
 ---
 
 ## Connect
 
-- **Portfolio:** [www.suyogbuilds.com/](https://www.suyogbuilds.com/)
-- **LinkedIn:** [linkedin.com/in/suyogdabhole](https://www.linkedin.com/in/suyogdabhole/)
-- **GitHub:** [github.com/suyog-builder](https://github.com/suyog-builder)
+I am interested in challenging problems in **AI / GenAI solution architecture, enterprise RAG, agentic AI, AI platforms, and AWS cloud/platform engineering**.
 
----
+**[Portfolio](https://suyogbuilds.com) · [LinkedIn](https://www.linkedin.com/in/suyogdabhole/) · [Email](mailto:suyog.dabhole@outlook.com)**
 
-> **Engineering philosophy:** The best platform makes the secure, reliable, observable, and cost-efficient path the easiest path for developers.
+> **Engineering philosophy:** Design for measurable business outcomes, then make the solution secure, observable, maintainable, and reliable in production.
