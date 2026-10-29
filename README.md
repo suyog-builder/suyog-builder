@@ -106,6 +106,19 @@ Cross-cutting: IAM • Guardrails • Evaluation • Tracing • SLOs
 
 ---
 
+## GenAI Reference Implementations: Aviation
+
+Working Python code, not just diagrams. Each repo runs locally with no AWS account, has a GitHub Actions pipeline, and explains every architecture step with an aviation maintenance example. All data is synthetic.
+
+| Repository | What it demonstrates | Stack |
+| --- | --- | --- |
+| [Aviation Agentic Platform](https://github.com/suyog-builder/aviation-agentic-platform-agentcore-langgraph) | An AI copilot for airline maintenance and flight operations. It answers from manuals with checked citations, reads live maintenance data, and raises work orders only after **human approval**. | LangGraph, Amazon Bedrock AgentCore (Runtime, Gateway, Memory, Policy/Cedar, Identity), Bedrock Guardrails, Knowledge Bases, Step Functions, Lambda |
+| [Aviation Document Ingestion](https://github.com/suyog-builder/aviation-document-ingestion-serverless) | A serverless pipeline that turns manuals, service bulletins and scanned task cards into searchable vectors, **sized for 2 million documents/day**. It has fast and heavy lanes, selective OCR, and indexing that never duplicates. | S3, SQS, Lambda, Step Functions (Distributed Map), Textract, Titan Text Embeddings V2, OpenSearch Serverless, S3 Vectors, DynamoDB |
+
+What to look at: human approval enforced twice (`interrupt()` plus Cedar policy), answers checked against sources before they are shown, idempotent writes, OCR and Bedrock cost controls, and documented failure handling and disaster recovery.
+
+---
+
 ## Public Architecture Repositories
 
 These are **generalized reference blueprints and engineering roadmaps** that demonstrate my AWS and platform architecture approach. Their current documentation should not be confused with proprietary production implementations.
